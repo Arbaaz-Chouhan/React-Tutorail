@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import React, { useReducer } from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Greet from "./components/Greet";
 import UseStat from "./components/useStat";
@@ -27,6 +28,11 @@ import UseMemo from './Hooks/useMemo';
 import DocTitleOne from './Hooks/Custom-Hook/DocTitleOne';
 import DocTitleTwo from './Hooks/Custom-Hook/DocTitleTwo';
 import Parent from './Render/Parent';
+import HomePage from './Router Dom/home-page';
+import Aboutpage from './Router Dom/about-page';
+import ContcatPage from './Router Dom/contact-page';
+import ArrayUseState from "./Hooks/useState/usetState-with-array"
+import ObjectUseState from "./Hooks/useState/useState-with-obj"
 
 export const CountContext = React.createContext();
 const initialState = { count: 0 };
@@ -81,6 +87,15 @@ function App() {
       {/* <Greet name="Adnan" /> */}
       {/* <Greet name="fayyaz" /> */}
       {/* <UseStat/>  */}
+      {/* <ArrayUseState/> */}
+      <ObjectUseState/>
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about-page" element={<Aboutpage />} />
+        <Route path="/contact-page" element={<ContcatPage />} />
+      </Routes>
+
 
 
     </div>
