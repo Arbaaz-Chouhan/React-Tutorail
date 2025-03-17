@@ -1,25 +1,25 @@
 // import logo from './logo.svg';
 import React, { useReducer } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import './App.css';
-import Greet from "./components/Greet";
-import UseStat from "./components/useStat";
-import FunctionClick from "./components/functionClick";
-import ParentComponent from './components/ParentComponent';
-import ListRendering from './components/List-Rendering';
-import StylesSheet from './components/StylesSheet';
-import "./appStyle.css"
-import styles from "./appStyle-modul.css"
-import SimpleForm from "./components/Form"
-import FragmentExample from './components/Fragments';
-import MainUseContext from './components/MainUseContext';
-import GetRequest from './http/GetRequest';
-import PostRequest from './http/axios-post-request';
-import MyComponent from './components/useRef';
-import UseEffectFn from './Hooks/useEffect';
-import Counter from "./Hooks/useReducer"
-import FetchDataComponent from './Hooks/Fetching-data-with-useReducer';
-import UseCallbackA from './Hooks/useCallback/useCallbackA';
+// import './App.css';
+// import Greet from "./components/Greet";
+// import UseStat from "./components/useStat";
+// import FunctionClick from "./components/functionClick";
+// import ParentComponent from './components/ParentComponent';
+// import ListRendering from './components/List-Rendering';
+// import StylesSheet from './components/StylesSheet';
+// import "./appStyle.css"
+// import styles from "./appStyle-modul.css"
+// import SimpleForm from "./components/Form"
+// import FragmentExample from './components/Fragments';
+// import MainUseContext from './components/MainUseContext';
+// import GetRequest from './http/GetRequest';
+// import PostRequest from './http/axios-post-request';
+// import MyComponent from './components/useRef';
+// import UseEffectFn from './Hooks/useEffect';
+// import Counter from "./Hooks/useReducer"
+// import FetchDataComponent from './Hooks/Fetching-data-with-useReducer';
+// import UseCallbackA from './Hooks/useCallback/useCallbackA';
 
 import ComponetA from './Hooks/useReducer-&-useContext/ComponetA';
 import ComponetB from './Hooks/useReducer-&-useContext/ComponetB';
