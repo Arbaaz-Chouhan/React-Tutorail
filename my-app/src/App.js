@@ -88,7 +88,7 @@ function App() {
       {/* <Greet name="fayyaz" /> */}
       {/* <UseStat/>  */}
       {/* <ArrayUseState/> */}
-      <ObjectUseState />
+      <ObjectUseState/>
 
       <Routes>
         <Route path="/" element={<HomePage />} />
